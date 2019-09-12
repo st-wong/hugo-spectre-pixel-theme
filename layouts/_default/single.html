@@ -1,0 +1,27 @@
+{{ define "main" }}
+<article class="container p-centered mt-space">
+  <header>
+    <h2 class="text-center">{{ .Title }}</h2>
+    <h6 class="text-gray text-italic">{{ .Description | markdownify }}</h6>
+  </header>
+  <section class="my-gap">
+    {{ .Content }}
+
+  </section>
+  <div class="divider my-gap"></div>
+  <footer class="col-12 d-inline-block">
+    <span class="float-left">
+      <a class="btn btn-action btn-accent shadow s-circle" href='{{ .Site.BaseURL }}'><i class="fas fa-home"></i></a>
+    </span>
+    <span class="float-right">
+      <div class="text-right float-left mx-2">
+        <span class="text-dark">{{ .Site.Params.name }}</span><br>
+        <span class="text-gray">{{ .Site.Params.aboutAuthor }}</span>
+      </div>
+      <figure class="avatar avatar-lg">
+        <img id="profile">
+      </figure>
+    </span>
+  </footer>
+</article>
+{{ end }}
