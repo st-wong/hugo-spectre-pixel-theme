@@ -1,0 +1,1 @@
+<a href="{{ if .Get "src" }}{{ .Get "src" }}{{ else }}https://google.com/search?q={{ .Get "text" }}{{ end }}" class="btn btn-primary mt-1" target="_blank">{{ .Get "text" }}</a>

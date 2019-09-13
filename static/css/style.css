@@ -54,7 +54,7 @@
     --color-dark-bg: #212121;
     --color-light: #fff;
     --color-light-bg: #f2f2f2;
-    --profile-src: url("../images/avatar.png");
+    --profile-src: url("https://github.com/st-wong/hugo-spectre-pixel-theme/raw/st-wong.github.io/static/images/avatar.png");
 }
 [data-theme='pixel'] {
     --font-family: "Pixel";
@@ -84,7 +84,7 @@
     --color-dark-bg: #262b44;
     --color-light: #ffffff;
     --color-light-bg: #2ce8f5;
-    --profile-src: url("../images/pixel.png");
+    --profile-src: url("https://github.com/st-wong/hugo-spectre-pixel-theme/raw/st-wong.github.io/static/images/pixel.png");
 }
 .shadow {
     box-shadow: .2rem .2rem .5rem rgba(87,85,217,.2);
