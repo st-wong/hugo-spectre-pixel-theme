@@ -7,12 +7,11 @@ The pixel style switch was something I just did for fun to represent my passion 
 # Using the theme
  
 1. [Install Hugo](https://gohugo.io/overview/installing/)
-2. Create a new site (replace `MySite` with your site's name)
+2. Create a new site (replace `MySite` with your site's name). More info at [Hugo docs](https://gohugo.io/getting-started/quick-start/)
 ```bash
 hugo new site MySite
 cd MySite
-```
-More info at [Hugo docs](https://gohugo.io/getting-started/quick-start/)
+```  
 3. Clone this repository
 ```bash
 git clone --recursive https://github.com/st-wong/hugo-spectre-pixel-theme.git themes/spectre-pixel
