@@ -25,7 +25,7 @@ Thanks to:
 - [JOURNEY PALETTE](https://lospec.com/palette-list/journey)
   * Color Palette for pixel theme
 
-- [Minecraft] (https://www.fontspace.com/jdgraphics/minecraft)
+- [Minecraft](https://www.fontspace.com/jdgraphics/minecraft)
   * Minecraft font for pixel theme
   
 - [One Size](https://scummbar.com/resources/downloads/index.php?todo=Fonts)

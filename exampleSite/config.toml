@@ -1,29 +1,33 @@
 # Site settings
-baseurl = "https://example.org/"
+baseurl = "https://example.com/"
 languageCode = "en-us"
 title = "Spectre Pixel Theme"
 theme = "spectre-pixel"
+
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
 
 [params]
-	name = "John Doe"
+  name = "John Doe"
   altName = "John"
-	description = "Describe your website"
-	bio = "Blogger & Programmer"
-	enableRSS = true
+  description = "Describe your website"
+  bio = "Blogger & Programmer"
+  enableRSS = true
 
-	# Integrate Javascript files or stylesheets by adding the url to the external assets or by
-	# linking local files with their path relative to the static folder, e.g. "css/styles.css"
-	customCSS = [
+  # Author information in posts
+  aboutAuthor = "I'm a Programmer."
+
+  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
+  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
+  customCSS = [
     "https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
   ]
-	customJS  = []
+  customJS  = []
 
-	# The variables below are optionally too and can be used to
-	# translate or customize each string of the theme.
+  # The variables below are optionally too and can be used to
+  # translate or customize each string of the theme.
 
-	# Navigation links
+  # Navigation links
 	home = ""
 	subscribe = ""
 
@@ -31,9 +35,6 @@ googleAnalytics = ""
 	olderPosts = ""
 	newerPosts = ""
 	copyright = ""
-
-	# Sharing options and author information in posts
-	aboutAuthor = "I'm a Programmer."
 
 	# 404 page
 	title404 = ""
