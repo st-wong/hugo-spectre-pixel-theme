@@ -13,7 +13,7 @@
       {{ end }}
 
       {{ if .Site.Params.enableRSS }}
-      <a class="btn btn-accent" href="{{ .Site.RSSLink }}" target="_blank"><i class="fas fa-rss fa-lg"></i></a>
+      <a class="btn btn-accent" href="{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}" target="_blank"><i class="fas fa-rss fa-lg"></i></a>
       {{ end }}
     </section>
   </nav>
